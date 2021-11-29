@@ -1,0 +1,336 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+.navbar {
+    background:black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 95%;
+    position: absolute;
+    border: 1mm ridge rgb(111, 78, 145); 
+    height: 100%;
+    flex: 1;
+    
+}
+
+.navbar ul{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.navbar a{
+    color: rgb(111, 78, 145);
+}
+
+#s-media-icons img{
+    height: 50px;
+    width: 50px;
+}
+
+#s-media-icons p{
+     font-family:'Roboto Mono', monospace;
+     padding: 2%;
+}
+
+body{
+    background-color: rgba(0, 0, 0, 0.986);
+    color: white;
+}
+
+h1{
+    font-family: 'Roboto Mono', monospace;
+   
+}
+
+
+
+  #name-tag{
+    font-family: 'Roboto Mono', monospace;
+    background-color: rgb(0, 0, 0);
+    color:silver; 
+    display: inline-flex;
+    margin-right: 55%;
+    margin-bottom: 5%;
+    font-size: x-large;
+
+} 
+
+#s-media-icons{
+    background: black;
+    display: inline-flex;
+    gap: 15px;
+}
+
+.intro-section{
+    margin-right: 5%;
+    background-image: url('Portfolio_Photos/About-me.jpg');
+    box-shadow:0 0 8px 8px black ;
+    color: white;
+    padding-top:10px;
+    padding-bottom: 10px;
+}
+
+#intro-line{
+    font-size:xxx-large;
+    text-shadow: 5px 5px black;
+    margin-left: 1%;
+    margin: 5%;
+}
+
+#intro-tagline{
+    font-size: 75px;
+    text-shadow: 5px 5px rgb(0, 0, 0);
+    padding-left: 5%;
+    margin: 2%;
+    margin-top: 10%;
+}
+
+#intro-slug{
+    font-size: xxx-large;
+    text-shadow: 2px 2px rgb(0, 0, 0,);
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color:rgb(0, 0, 0, 0.8);
+    margin-top: 5%;
+    margin-bottom: 15%;
+}
+
+.About{
+    background-image: url('Portfolio_Photos/About-me.jpg');
+    background-position: bottom 25% right 45%;
+    background-size: 2000px;
+    margin-right: 5%;
+    
+    
+    
+    
+}
+
+#about-head{
+    font-family: 'Roboto Mono', monospace;
+    font-size: 75px;
+    text-shadow: 5px 5px black;
+}
+
+#about-body h2{
+    font-weight: bold;
+    border-bottom: 2px solid rebeccapurple;
+    width: 35%;
+    padding: 2% 2% 0 2%;
+    margin-bottom: 2%;
+}
+
+#about-body{
+    font-size: x-large;
+    text-shadow: 2px 2px rgb(0, 0, 0);
+    background: black;
+    padding: 1%;
+    margin-left: 2.5%;
+    margin-top: 2%;
+    margin-bottom: 5%;
+    margin-right: 55%;
+    margin-block-end: 25px;
+    display: inline-flex;
+    flex-wrap: wrap;
+    border:rebeccapurple ridge 1mm;
+}
+
+#goals h2{
+    font-weight: bold;
+    padding: 2% 2% 0 2%;
+    border-bottom: rebeccapurple solid 2px;
+    margin-bottom: 2%;
+}
+
+#goals{
+    font-size: x-large;
+    text-shadow: 2px 2px rgb(0, 0, 0);
+    background: black;
+   padding: 1%;
+    margin-left: 55%;
+    margin-top: -2%;
+    margin-bottom: 5%;
+    margin-right: 2.5%;
+    display: inline-flex;
+    flex-wrap: wrap;
+    border:rebeccapurple ridge 1mm;
+}
+
+.Projects{
+    background-image: url('Portfolio_Photos/Header_Pic.png');
+    background-size: 2000px;
+    margin-right: 5%;
+    margin-top: 5%;
+    padding-bottom: 15%;
+}
+
+.Projects h1{
+    font-size: 75px;
+    padding-left: 2%;
+    padding-top: 5%;
+    margin-bottom: 2%;
+    width: 75%;
+    text-shadow: 5px 5px black;
+   
+}
+
+#intro-projects{
+    font-size: xx-large;
+    padding: 2%;
+    background-color: black;
+    border: rebeccapurple ridge 1mm;
+}
+
+.panel-container{
+    display:flex;
+    height: 100%;
+    justify-content: space-around;
+    
+}
+
+#project-panel1 p {
+    font-size: x-large;
+    margin: 0;
+}
+
+
+#project-panel1{
+    width: 30%;
+    height: 100%;
+    box-sizing: border-box;
+   display: flex;
+   flex-direction:column;
+   flex-wrap: wrap;
+   align-items: center;
+    margin: 5%;
+    padding: 2%;
+    background-color: rgb(0, 0, 0);
+    border: rebeccapurple ridge 1mm;
+}
+
+#project-panel2 p {
+    font-size: x-large;
+   
+    margin: 0;
+}
+
+
+#project-panel2{
+    width: 30%;
+    height: 100%;
+    box-sizing: border-box;
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 5%;
+    padding: 2%;
+    background-color: rgb(0, 0, 0);
+    border: rebeccapurple ridge 1mm;
+}
+
+.Projects img {
+    height: 150px;
+    width: 150px;
+    margin: 0%;
+    padding: 2%;
+}
+
+.resume h1{
+    font-size: 75px;
+    border-bottom: 2px solid rebeccapurple;
+    width: 45%;
+}
+
+.Resume-flex{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 2%;
+    font-size: large;
+}
+
+.Resume-flex h2{
+    font-size: xxx-large;
+    padding: 2%;
+}
+
+
+.Resume-flex h3{
+    font-weight: bold;
+    margin: 2%;
+}
+
+
+.Resume-flex ul{
+    padding: 5%;
+    font-weight: bold;
+}
+
+.Resume-flex li{
+    margin-left: 5%;
+    padding: 2%;
+}
+
+.education-resume{
+    border: 4mm ridge rgb(201, 186, 201, 0.5);
+}
+
+.resume-work{
+    border:  4mm ridge rgb(201, 186, 201, 0.5);
+}
+
+.resume-skills{
+    border: 4mm ridge rgb(201, 186, 201, 0.5);
+    margin-right: 2%;
+}
+
+
+
+
+
